@@ -1,0 +1,5 @@
+-restore database
+-Adjust brewing time on LEARNING activity after the timer is stopped but
+before started again.
+
+-Edit existing Brewings.
