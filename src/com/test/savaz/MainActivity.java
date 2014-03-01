@@ -121,8 +121,9 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
         new EventNotifier(this);
 	
         initactivity();
+        
         if(sendstat && hasConnection())sendstat();
-        //if(sendstat)sendstat();
+        
         
         tglbtn1.setChecked(settings.getBoolean("tglbtn", false));			//restore prev.state...        
 		if (settings.getBoolean("kungfubrewing", false))
@@ -328,7 +329,8 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
 		{
 			sendWasCorrect=sendphp.execute(sessions, brewings, uuid);
 		}
-	}	
+	}
+	
 	private boolean hasConnection() {
 		    ConnectivityManager cm = (ConnectivityManager) getBaseContext().getSystemService(
 		        Context.CONNECTIVITY_SERVICE);

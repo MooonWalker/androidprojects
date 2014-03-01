@@ -39,6 +39,8 @@ public class Settings extends PreferenceActivity
              
              final CheckBoxPreference stayAwake=(CheckBoxPreference)findPreference("stayawake");
              final CheckBoxPreference stat=(CheckBoxPreference)findPreference("stat");
+             stat.setEnabled(false);
+             
              final CheckBoxPreference sendstat=(CheckBoxPreference)findPreference("sendstat");
              final Preference backup = (Preference)findPreference("backup");
              final Preference restore = (Preference)findPreference("restore");

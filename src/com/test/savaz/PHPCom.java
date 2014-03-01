@@ -29,8 +29,8 @@ public class PHPCom
     String sendwascorrect= Boolean.TRUE.toString();
 
     //private static String url_create_session = "http://localhost/insertsession.php";
-    private static String url_create_session = "http://szasznas.synology.me/insertsession.php";
-    private static String url_create_brewing = "http://szasznas.synology.me/insertsessiond.php";
+    private static String url_create_session = "http://gongfucha.info/insertsession.php";
+    private static String url_create_brewing = "http://gongfucha.info/insertsessiond.php";
  
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
@@ -41,14 +41,15 @@ public PHPCom(Context _ctx)
 		ctx=_ctx;
 	}
 
-    public String execute(List<SessionH> sessions, List<BrewingH> brewings, String uuid)
+public String execute(List<SessionH> sessions, List<BrewingH> brewings, String uuid)
     {    
     	HSessionBrew stufftosend = new HSessionBrew(sessions, brewings, uuid);
     	new UploadStatistics().execute(stufftosend);
     	return sendwascorrect;
     }
+    
     //class UploadStatistics extends AsyncTask<List<SessionH>, String, String>
-    class UploadStatistics extends AsyncTask<HSessionBrew, String, String> 
+class UploadStatistics extends AsyncTask<HSessionBrew, String, String> 
     {
     	Boolean running;
     	 @Override
