@@ -94,6 +94,7 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
 		brewingtime = _brewingtime;
 	}
 //==================================================================================	
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) 
 	{
@@ -114,16 +115,12 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);  
         setContentView(R.layout.activity_main);
        
-        //Toast.makeText(this, "Checking Application License", Toast.LENGTH_LONG).show();
-        // Check the license
-        //checkLicense();
         
         new EventNotifier(this);
 	
         initactivity();
         
-        if(sendstat && hasConnection())sendstat();
-        
+        if(sendstat && hasConnection())sendstat();        
         
         tglbtn1.setChecked(settings.getBoolean("tglbtn", false));			//restore prev.state...        
 		if (settings.getBoolean("kungfubrewing", false))
@@ -135,9 +132,7 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
 			setupNonKungfuState();
 		}
 		
-		if(prefs.getBoolean("stayawake", false)) setWakelock();
-		
-		
+		if(prefs.getBoolean("stayawake", false)) setWakelock();		
 		
 		tealist.setOnItemClickListener(new ListView.OnItemClickListener()
 		{
@@ -311,6 +306,21 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
 		
 	}
 	
+	@Override
+	protected void onSaveInstanceState(Bundle savedInstanceState) 
+	{
+		// TODO Auto-generated method stub
+		super.onSaveInstanceState(savedInstanceState);
+	}	
+	
+
+	@Override
+	protected void onRestoreInstanceState(Bundle savedInstanceState) 
+	{
+		// TODO Auto-generated method stub
+		super.onRestoreInstanceState(savedInstanceState);
+	}
+
 	private void sendstat()
 	{
 
@@ -331,17 +341,20 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
 		}
 	}
 	
-	private boolean hasConnection() {
+	private boolean hasConnection() 
+	{
 		    ConnectivityManager cm = (ConnectivityManager) getBaseContext().getSystemService(
 		        Context.CONNECTIVITY_SERVICE);
 
 		    NetworkInfo wifiNetwork = cm.getNetworkInfo(ConnectivityManager.TYPE_WIFI);
-		    if (wifiNetwork != null && wifiNetwork.isConnected()) {
+		    if (wifiNetwork != null && wifiNetwork.isConnected()) 
+		    {
 		      return true;
 		    }
 
 		    NetworkInfo mobileNetwork = cm.getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-		    if (mobileNetwork != null && mobileNetwork.isConnected()) {
+		    if (mobileNetwork != null && mobileNetwork.isConnected()) 
+		    {
 		      return true;
 		    }
 
@@ -1293,8 +1306,7 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
 		if (kungfubrewing && session!= null)
 		{
 			if(session.isStarted())
-			{
-				
+			{				
 			}
 			else 
 			{
@@ -1351,8 +1363,7 @@ public class MainActivity extends Activity implements MycountFinished, View.OnCl
 	}
 
 	public void onClick(DialogInterface dialog, int which)
-	{
-		
+	{	
 	}
 
 	public void timerFinished()
