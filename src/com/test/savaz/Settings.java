@@ -7,8 +7,6 @@ import com.test.savaz.R;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
@@ -22,7 +20,7 @@ import android.view.WindowManager;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class Settings extends PreferenceActivity implements OnSharedPreferenceChangeListener
+public class Settings extends PreferenceActivity
 {
 	private Context ctx;
 	private DatabaseHandler db;
@@ -38,13 +36,9 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
              super.onCreate(savedInstanceState);
              addPreferencesFromResource(R.xml.prefs);
              getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN); 
-             SharedPreferences sp = getPreferenceScreen().getSharedPreferences();
-             sp.registerOnSharedPreferenceChangeListener(this);
              
              final CheckBoxPreference stayAwake=(CheckBoxPreference)findPreference("stayawake");
              final CheckBoxPreference stat=(CheckBoxPreference)findPreference("stat");
-             stat.setEnabled(false);
-             
              final CheckBoxPreference sendstat=(CheckBoxPreference)findPreference("sendstat");
              final Preference backup = (Preference)findPreference("backup");
              final Preference restore = (Preference)findPreference("restore");
@@ -143,14 +137,6 @@ public class Settings extends PreferenceActivity implements OnSharedPreferenceCh
              
             
      }
-
-
-	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
-			String key) 
-	{
-		// TODO Auto-generated method stub
-		
-	}
 
 	
 }

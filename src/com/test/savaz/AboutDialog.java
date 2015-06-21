@@ -35,7 +35,7 @@ public class AboutDialog extends Dialog
 		tv = (TextView)findViewById(R.id.info_text);
 		tv.setText(Html.fromHtml(readRawTextFile(R.raw.info)));
 		tv.setLinkTextColor(Color.WHITE);
-		Linkify.addLinks(tv, Linkify.WEB_URLS);
+		Linkify.addLinks(tv, Linkify.ALL);
 	}
 	
 	public static String readRawTextFile(int id) 
