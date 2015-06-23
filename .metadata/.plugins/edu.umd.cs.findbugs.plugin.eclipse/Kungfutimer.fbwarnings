@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.2" sequence="7" timestamp="1434960842349" analysisTimestamp="1434960841716" release="">
+  <Project projectName="Kungfutimer">
+    <Jar>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\JSONParser.class</Jar>
+    <AuxClasspathEntry>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\DATA\Dropbox\androidprojects\Kungfutimer\libs\android-support-v4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Android\android-sdk\tools\support\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Android\android-sdk\platforms\android-10\android.jar</AuxClasspathEntry>
+    <SrcDir>C:\DATA\Dropbox\androidprojects\Kungfutimer\src</SrcDir>
+    <SrcDir>C:\DATA\Dropbox\androidprojects\Kungfutimer\gen</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" abbrev="Dm" category="I18N" first="2">
+    <Class classname="com.test.savaz.AboutDialog">
+      <SourceLine classname="com.test.savaz.AboutDialog" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+    </Class>
+    <Method classname="com.test.savaz.AboutDialog" name="readRawTextFile" signature="(I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.test.savaz.AboutDialog" start="41" end="52" startBytecode="0" endBytecode="229" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+    </Method>
+    <Method classname="java.io.InputStreamReader" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.InputStreamReader" start="5" end="5" startBytecode="0" endBytecode="65" sourcefile="InputStreamReader.java" sourcepath="java/io/InputStreamReader.java"/>
+    </Method>
+    <SourceLine classname="com.test.savaz.AboutDialog" start="42" end="42" startBytecode="16" endBytecode="16" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="2">
+    <Class classname="com.test.savaz.AboutDialog">
+      <SourceLine classname="com.test.savaz.AboutDialog" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+    </Class>
+    <Method classname="com.test.savaz.AboutDialog" name="readRawTextFile" signature="(I)Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.test.savaz.AboutDialog" start="41" end="52" startBytecode="0" endBytecode="35" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="5" end="16" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="com.test.savaz.AboutDialog" start="43" end="43" startBytecode="20" endBytecode="20" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" abbrev="ST" category="STYLE" first="2">
+    <Class classname="com.test.savaz.AboutDialog">
+      <SourceLine classname="com.test.savaz.AboutDialog" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+    </Class>
+    <Method classname="com.test.savaz.AboutDialog" name="&lt;init&gt;" signature="(Landroid/content/Context;)V" isStatic="false">
+      <SourceLine classname="com.test.savaz.AboutDialog" start="22" end="24" startBytecode="0" endBytecode="69" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+    </Method>
+    <Field classname="com.test.savaz.AboutDialog" name="mContext" signature="Landroid/content/Context;" isStatic="true">
+      <SourceLine classname="com.test.savaz.AboutDialog" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+    </Field>
+    <SourceLine classname="com.test.savaz.AboutDialog" start="23" end="23" startBytecode="6" endBytecode="6" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" abbrev="ES" category="BAD_PRACTICE" first="6">
+    <Class classname="com.test.savaz.JSONParser">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Class>
+    <Method classname="com.test.savaz.JSONParser" name="makeHttpRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lorg/json/JSONObject;" isStatic="false">
+      <SourceLine classname="com.test.savaz.JSONParser" start="46" end="100" startBytecode="0" endBytecode="148" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="2" end="86" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="GET" role="STRING_CONSTANT"/>
+    <LocalVariable name="method" register="2" pc="70" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.test.savaz.JSONParser" start="58" end="58" startBytecode="72" endBytecode="72" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" abbrev="ES" category="BAD_PRACTICE" first="6">
+    <Class classname="com.test.savaz.JSONParser">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Class>
+    <Method classname="com.test.savaz.JSONParser" name="makeHttpRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lorg/json/JSONObject;" isStatic="false">
+      <SourceLine classname="com.test.savaz.JSONParser" start="46" end="100" startBytecode="0" endBytecode="148" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="2" end="86" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="POST" role="STRING_CONSTANT"/>
+    <LocalVariable name="method" register="2" pc="1" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="com.test.savaz.JSONParser" start="46" end="46" startBytecode="3" endBytecode="3" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER_IN_PUBLIC_METHOD" value="true"/>
+  </BugInstance>
+  <BugInstance type="OS_OPEN_STREAM" priority="2" abbrev="OS" category="BAD_PRACTICE" first="6">
+    <Class classname="com.test.savaz.JSONParser">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Class>
+    <Method classname="com.test.savaz.JSONParser" name="makeHttpRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lorg/json/JSONObject;" isStatic="false">
+      <SourceLine classname="com.test.savaz.JSONParser" start="46" end="100" startBytecode="0" endBytecode="148" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Method>
+    <Type descriptor="Ljava/io/Reader;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.io.Reader" start="5" end="16" sourcefile="Reader.java" sourcepath="java/io/Reader.java"/>
+    </Type>
+    <SourceLine classname="com.test.savaz.JSONParser" start="79" end="79" startBytecode="185" endBytecode="185" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" abbrev="ST" category="STYLE" first="6">
+    <Class classname="com.test.savaz.JSONParser">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Class>
+    <Method classname="com.test.savaz.JSONParser" name="makeHttpRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lorg/json/JSONObject;" isStatic="false">
+      <SourceLine classname="com.test.savaz.JSONParser" start="46" end="100" startBytecode="0" endBytecode="796" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Method>
+    <Field classname="com.test.savaz.JSONParser" name="is" signature="Ljava/io/InputStream;" isStatic="true">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Field>
+    <SourceLine classname="com.test.savaz.JSONParser" start="56" end="56" startBytecode="63" endBytecode="63" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" abbrev="ST" category="STYLE" first="6">
+    <Class classname="com.test.savaz.JSONParser">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Class>
+    <Method classname="com.test.savaz.JSONParser" name="makeHttpRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lorg/json/JSONObject;" isStatic="false">
+      <SourceLine classname="com.test.savaz.JSONParser" start="46" end="100" startBytecode="0" endBytecode="796" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Method>
+    <Field classname="com.test.savaz.JSONParser" name="is" signature="Ljava/io/InputStream;" isStatic="true">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Field>
+    <SourceLine classname="com.test.savaz.JSONParser" start="67" end="67" startBytecode="152" endBytecode="152" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" abbrev="ST" category="STYLE" first="6">
+    <Class classname="com.test.savaz.JSONParser">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Class>
+    <Method classname="com.test.savaz.JSONParser" name="makeHttpRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lorg/json/JSONObject;" isStatic="false">
+      <SourceLine classname="com.test.savaz.JSONParser" start="46" end="100" startBytecode="0" endBytecode="796" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Method>
+    <Field classname="com.test.savaz.JSONParser" name="jObj" signature="Lorg/json/JSONObject;" isStatic="true">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Field>
+    <SourceLine classname="com.test.savaz.JSONParser" start="94" end="94" startBytecode="315" endBytecode="315" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" abbrev="ST" category="STYLE" first="6">
+    <Class classname="com.test.savaz.JSONParser">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Class>
+    <Method classname="com.test.savaz.JSONParser" name="makeHttpRequest" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lorg/json/JSONObject;" isStatic="false">
+      <SourceLine classname="com.test.savaz.JSONParser" start="46" end="100" startBytecode="0" endBytecode="796" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Method>
+    <Field classname="com.test.savaz.JSONParser" name="json" signature="Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.test.savaz.JSONParser" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+    </Field>
+    <SourceLine classname="com.test.savaz.JSONParser" start="87" end="87" startBytecode="271" endBytecode="271" sourcefile="JSONParser.java" sourcepath="com/test/savaz/JSONParser.java"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" priority="2" abbrev="UuF" category="STYLE" first="3">
+    <Class classname="com.test.savaz.R">
+      <SourceLine classname="com.test.savaz.R" sourcefile="R.java" sourcepath="com/test/savaz/R.java"/>
+    </Class>
+    <Field classname="com.test.savaz.R" name="layout" signature="Ljava/lang/Object;" isStatic="true">
+      <SourceLine classname="com.test.savaz.R" start="5" end="5" startBytecode="0" endBytecode="0" sourcefile="R.java" sourcepath="com/test/savaz/R.java"/>
+    </Field>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 22 Jun 2015 10:14:01 +0200" total_classes="1" referenced_classes="28" total_bugs="11" total_size="48" num_packages="1" vm_version="25.45-b02" cpu_seconds="1.44" clock_seconds="0.64" peak_mbytes="240.21" alloc_mbytes="494.94" gc_seconds="0.02" priority_2="6" priority_1="5">
+    <PackageStats package="com.test.savaz" total_bugs="11" total_types="3" total_size="48" priority_2="6" priority_1="5">
+      <ClassStats class="com.test.savaz.JSONParser" sourceFile="JSONParser.java" interface="false" size="48" bugs="7" priority_2="4" priority_1="3"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="270" invocations="234" avgMicrosecondsPerInvocation="1155" maxMicrosecondsPerInvocation="23548" standardDeviationMircosecondsPerInvocation="1493"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="67" invocations="2" avgMicrosecondsPerInvocation="33617" maxMicrosecondsPerInvocation="52104" standardDeviationMircosecondsPerInvocation="18486"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="33" invocations="225" avgMicrosecondsPerInvocation="149" maxMicrosecondsPerInvocation="962" standardDeviationMircosecondsPerInvocation="177"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="20" invocations="4" avgMicrosecondsPerInvocation="5225" maxMicrosecondsPerInvocation="11433" standardDeviationMircosecondsPerInvocation="5081"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="16" invocations="4" avgMicrosecondsPerInvocation="4001" maxMicrosecondsPerInvocation="8048" standardDeviationMircosecondsPerInvocation="3724"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1434902930977" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1434902930977" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1434903016653" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1434903052175" release="" codeSize="4" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1434903085091" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1434903107009" release="" codeSize="40" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1434960784362" release="" codeSize="48" numClasses="1"/>
+  </History>
+</BugCollection>
