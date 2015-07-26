@@ -1,7 +1,0 @@
-package com.test.savaz;
-
-public class R {
-
-	public static Object layout;
-
-}

@@ -3,12 +3,10 @@
 xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_width="wrap_content"
 android:layout_height="wrap_content"
-android:stretchColumns="*">
-
+android:stretchColumns= "*" >
 <TableRow
     android:layout_width="fill_parent"
     android:layout_height="wrap_content" >
-
 <ImageView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -17,7 +15,7 @@ android:stretchColumns="*">
     android:maxWidth="100dp"
     android:scaleType="centerCrop"
     android:src="@drawable/chakicsi" />
-
+
 <TextView
     android:id="@+id/info_text"
     android:layout_width="fill_parent"

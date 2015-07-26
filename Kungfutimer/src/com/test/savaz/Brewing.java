@@ -4,7 +4,8 @@ public class Brewing
 {
 	private int brewnr, brewtime, teaID = 0;
 
-	public Brewing(int brewnr, int brewtime, int teaID) {
+	public Brewing(int brewnr, int brewtime, int teaID) 
+	{
 		super();
 		this.brewnr = brewnr;
 		this.brewtime = brewtime;

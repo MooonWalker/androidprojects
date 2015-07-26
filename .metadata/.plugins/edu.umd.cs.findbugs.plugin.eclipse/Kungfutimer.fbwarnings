@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="2.0.2" sequence="7" timestamp="1434960842349" analysisTimestamp="1434960841716" release="">
+<BugCollection version="2.0.2" sequence="8" timestamp="1437568214876" analysisTimestamp="1437568212244" release="">
   <Project projectName="Kungfutimer">
-    <Jar>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\JSONParser.class</Jar>
+    <Jar>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Brewing.class</Jar>
     <AuxClasspathEntry>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes</AuxClasspathEntry>
     <AuxClasspathEntry>C:\DATA\Dropbox\androidprojects\Kungfutimer\libs\android-support-v4.jar</AuxClasspathEntry>
-    <AuxClasspathEntry>C:\Android\android-sdk\tools\support\annotations.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Android\android-sdk\platforms\android-10\android.jar</AuxClasspathEntry>
     <SrcDir>C:\DATA\Dropbox\androidprojects\Kungfutimer\src</SrcDir>
     <SrcDir>C:\DATA\Dropbox\androidprojects\Kungfutimer\gen</SrcDir>
@@ -146,16 +145,15 @@
     </Field>
   </BugInstance>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Mon, 22 Jun 2015 10:14:01 +0200" total_classes="1" referenced_classes="28" total_bugs="11" total_size="48" num_packages="1" vm_version="25.45-b02" cpu_seconds="1.44" clock_seconds="0.64" peak_mbytes="240.21" alloc_mbytes="494.94" gc_seconds="0.02" priority_2="6" priority_1="5">
-    <PackageStats package="com.test.savaz" total_bugs="11" total_types="3" total_size="48" priority_2="6" priority_1="5">
-      <ClassStats class="com.test.savaz.JSONParser" sourceFile="JSONParser.java" interface="false" size="48" bugs="7" priority_2="4" priority_1="3"/>
+  <FindBugsSummary timestamp="Wed, 22 Jul 2015 14:30:09 +0200" total_classes="1" referenced_classes="6" total_bugs="11" total_size="29" num_packages="1" vm_version="25.51-b03" cpu_seconds="5.21" clock_seconds="2.65" peak_mbytes="207.36" alloc_mbytes="494.94" gc_seconds="0.47" priority_2="6" priority_1="5">
+    <PackageStats package="com.test.savaz" total_bugs="11" total_types="4" total_size="29" priority_2="6" priority_1="5">
+      <ClassStats class="com.test.savaz.Brewing" sourceFile="Brewing.java" interface="false" size="29" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="270" invocations="234" avgMicrosecondsPerInvocation="1155" maxMicrosecondsPerInvocation="23548" standardDeviationMircosecondsPerInvocation="1493"/>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="67" invocations="2" avgMicrosecondsPerInvocation="33617" maxMicrosecondsPerInvocation="52104" standardDeviationMircosecondsPerInvocation="18486"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="33" invocations="225" avgMicrosecondsPerInvocation="149" maxMicrosecondsPerInvocation="962" standardDeviationMircosecondsPerInvocation="177"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="20" invocations="4" avgMicrosecondsPerInvocation="5225" maxMicrosecondsPerInvocation="11433" standardDeviationMircosecondsPerInvocation="5081"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="16" invocations="4" avgMicrosecondsPerInvocation="4001" maxMicrosecondsPerInvocation="8048" standardDeviationMircosecondsPerInvocation="3724"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="336" invocations="179" avgMicrosecondsPerInvocation="1878" maxMicrosecondsPerInvocation="149662" standardDeviationMircosecondsPerInvocation="11082"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="323" invocations="2" avgMicrosecondsPerInvocation="161869" maxMicrosecondsPerInvocation="172992" standardDeviationMircosecondsPerInvocation="11123"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="67" invocations="176" avgMicrosecondsPerInvocation="380" maxMicrosecondsPerInvocation="18517" standardDeviationMircosecondsPerInvocation="1415"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="43" invocations="9" avgMicrosecondsPerInvocation="4794" maxMicrosecondsPerInvocation="40139" standardDeviationMircosecondsPerInvocation="12515"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
@@ -167,5 +165,6 @@
     <AppVersion sequence="4" timestamp="1434903085091" release="" codeSize="20" numClasses="1"/>
     <AppVersion sequence="5" timestamp="1434903107009" release="" codeSize="40" numClasses="2"/>
     <AppVersion sequence="6" timestamp="1434960784362" release="" codeSize="48" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1434960842349" release="" codeSize="96" numClasses="2"/>
   </History>
 </BugCollection>
