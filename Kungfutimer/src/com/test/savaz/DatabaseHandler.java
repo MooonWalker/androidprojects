@@ -264,17 +264,22 @@ public class DatabaseHandler extends SQLiteOpenHelper
 	    
 	}
 	
-	private boolean checkDataBase() {
+	private boolean checkDataBase() 
+	{
 	    SQLiteDatabase checkDB = null;
 	    boolean exist = false;
-	    try {
+	    try 
+	    {
 	        String dbPath = DATABASE_PATH + DATABASE_NAME;
 	        checkDB = SQLiteDatabase.openDatabase(dbPath, null, SQLiteDatabase.OPEN_READWRITE);
-	    } catch (SQLiteException e) {
+	    } 
+	    catch (SQLiteException e) 
+	    {
 	        Log.v("db log", "database does't exist");
 	    }
 
-	    if (checkDB != null) {
+	    if (checkDB != null) 
+	    {
 	        exist = true;
 	        checkDB.close();
 	    }

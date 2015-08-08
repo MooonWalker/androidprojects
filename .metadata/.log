@@ -2518,3 +2518,925 @@ Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\clas
 
 !ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-25 18:37:49.088
 !MESSAGE Command ReviewCode excecuted in 104ms
+!SESSION 2015-07-29 09:00:36.956 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2015-07-29 09:00:48.015
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-29 09:00:48.015
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:00:54.816
+!MESSAGE 0 markers applied on 0 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:00:54.818
+!MESSAGE Review code command terminated. 233 rules were executed against 0 files. PMD was not executed.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:00:54.819
+!MESSAGE Command ReviewCode excecuted in 436ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:01:08.608
+!MESSAGE 11 markers applied on 1 files in 14ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:01:08.633
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 709ms, that is about 709.0 ms/file, 3.0429184 ms/rule, 3.0429184 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:01:08.634
+!MESSAGE Command ReviewCode excecuted in 1533ms
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2015-07-29 09:05:08.568
+!MESSAGE The following classes needed for FindBugs analysis on project Kungfutimer were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2015-07-29 09:05:08.568
+!MESSAGE java.rmi.Remote
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:05:08.983
+!MESSAGE 81 markers applied on 1 files in 5ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:05:08.992
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 341ms, that is about 341.0 ms/file, 1.4635193 ms/rule, 1.4635193 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 09:05:08.992
+!MESSAGE Command ReviewCode excecuted in 362ms
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2015-07-29 09:09:14.109
+!MESSAGE The following classes needed for FindBugs analysis on project Kungfutimer were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2015-07-29 09:09:14.109
+!MESSAGE java.rmi.Remote
+!SESSION 2015-07-29 12:42:06.639 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-07-29 12:42:09.014
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2015-07-29 12:42:15.298
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-29 12:42:15.298
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2015-07-29 12:42:19.804
+!MESSAGE The following classes needed for FindBugs analysis on project Kungfutimer were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2015-07-29 12:42:19.804
+!MESSAGE java.rmi.Remote
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 12:42:29.806
+!MESSAGE 92 markers applied on 2 files in 4ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 12:42:29.811
+!MESSAGE Review code command terminated. 233 rules were executed against 2 files. Actual PMD duration is about 720ms, that is about 360.0 ms/file, 3.0901287 ms/rule, 1.5450643 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 12:42:29.812
+!MESSAGE Command ReviewCode excecuted in 1090ms
+!SESSION 2015-07-29 13:45:07.899 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2015-07-29 13:45:13.676
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-29 13:45:13.677
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:45:17.900
+!MESSAGE 0 markers applied on 0 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:45:17.901
+!MESSAGE Review code command terminated. 233 rules were executed against 0 files. PMD was not executed.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:45:17.902
+!MESSAGE Command ReviewCode excecuted in 270ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:45:22.532
+!MESSAGE 11 markers applied on 1 files in 12ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:45:22.539
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 472ms, that is about 472.0 ms/file, 2.025751 ms/rule, 2.025751 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:45:22.540
+!MESSAGE Command ReviewCode excecuted in 823ms
+!SESSION 2015-07-29 13:52:17.632 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2015-07-29 13:52:23.314
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-29 13:52:23.314
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:52:27.683
+!MESSAGE 0 markers applied on 0 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:52:27.684
+!MESSAGE Review code command terminated. 233 rules were executed against 0 files. PMD was not executed.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:52:27.685
+!MESSAGE Command ReviewCode excecuted in 243ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:52:32.524
+!MESSAGE 11 markers applied on 1 files in 14ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:52:32.529
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 456ms, that is about 456.0 ms/file, 1.9570816 ms/rule, 1.9570816 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 13:52:32.529
+!MESSAGE Command ReviewCode excecuted in 1054ms
+!SESSION 2015-07-29 14:14:00.025 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2015-07-29 14:14:05.671
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-29 14:14:05.671
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 14:14:09.815
+!MESSAGE 0 markers applied on 0 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 14:14:09.816
+!MESSAGE Review code command terminated. 233 rules were executed against 0 files. PMD was not executed.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 14:14:09.817
+!MESSAGE Command ReviewCode excecuted in 247ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 14:14:14.680
+!MESSAGE 11 markers applied on 1 files in 15ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 14:14:14.686
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 455ms, that is about 455.0 ms/file, 1.9527897 ms/rule, 1.9527897 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-07-29 14:14:14.687
+!MESSAGE Command ReviewCode excecuted in 1072ms
+!SESSION 2015-08-01 10:22:52.130 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2015-08-01 10:23:09.609
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-01 10:23:09.609
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:23:47.571
+!MESSAGE 11 markers applied on 1 files in 2ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:23:47.581
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 500ms, that is about 500.0 ms/file, 2.1459227 ms/rule, 2.1459227 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:23:47.581
+!MESSAGE Command ReviewCode excecuted in 1666ms
+
+!ENTRY org.eclipse.core.net 4 0 2015-08-01 10:24:27.518
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:06.426
+!MESSAGE 12 markers applied on 2 files in 1ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:06.432
+!MESSAGE Review code command terminated. 233 rules were executed against 2 files. Actual PMD duration is about 135ms, that is about 67.5 ms/file, 0.57939917 ms/rule, 0.28969958 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:06.432
+!MESSAGE Command ReviewCode excecuted in 150ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:08.421
+!MESSAGE 1055 markers applied on 33 files in 57ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:08.430
+!MESSAGE Review code command terminated. 233 rules were executed against 33 files. Actual PMD duration is about 2441ms, that is about 73.969696 ms/file, 10.476395 ms/rule, 0.3174665 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:08.431
+!MESSAGE Command ReviewCode excecuted in 2580ms
+
+!ENTRY org.eclipse.jdt.core 4 4 2015-08-01 10:28:13.779
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Kungfutimer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:793)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:394)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.buildWithDeps(ProjectHelper.java:1103)
+	at com.android.ide.eclipse.adt.internal.project.ExportHelper.exportReleaseApk(ExportHelper.java:329)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard.doExport(ExportWizard.java:313)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard.access$0(ExportWizard.java:238)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard$1.run(ExportWizard.java:223)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Could not delete '/Kungfutimer/bin/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1941)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:394)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.buildWithDeps(ProjectHelper.java:1103)
+	at com.android.ide.eclipse.adt.internal.project.ExportHelper.exportReleaseApk(ExportHelper.java:329)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard.doExport(ExportWizard.java:313)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard.access$0(ExportWizard.java:238)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard$1.run(ExportWizard.java:223)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Addteatab.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Brewing.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\BrewingH.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-08-01 10:28:13.780
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-08-01 10:28:13.780
+!MESSAGE Could not delete '/Kungfutimer/bin/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1941)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:173)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:256)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:394)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.buildWithDeps(ProjectHelper.java:1103)
+	at com.android.ide.eclipse.adt.internal.project.ExportHelper.exportReleaseApk(ExportHelper.java:329)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard.doExport(ExportWizard.java:313)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard.access$0(ExportWizard.java:238)
+	at com.android.ide.eclipse.adt.internal.wizards.export.ExportWizard$1.run(ExportWizard.java:223)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Addteatab.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Brewing.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\BrewingH.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2015-08-01 10:28:13.780
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:13.780
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:13.780
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Addteatab.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:13.780
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Brewing.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:13.780
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\BrewingH.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:13.780
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:13.780
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:13.780
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com.
+
+!ENTRY org.eclipse.jdt.core 4 4 2015-08-01 10:28:14.269
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: Kungfutimer
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:793)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Could not delete '/Kungfutimer/bin/classes/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1941)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Addteatab.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Brewing.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\BrewingH.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-08-01 10:28:14.269
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-08-01 10:28:14.269
+!MESSAGE Could not delete '/Kungfutimer/bin/classes/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:352)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:798)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1941)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:780)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:114)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Addteatab.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Brewing.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\BrewingH.class.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test.
+Contains: Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2015-08-01 10:28:14.269
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:14.269
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:14.269
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Addteatab.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:14.269
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Brewing.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:14.269
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\BrewingH.class.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:14.269
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:14.269
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-08-01 10:28:14.269
+!MESSAGE Could not delete: C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:14.356
+!MESSAGE 11 markers applied on 1 files in 1ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:14.359
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 70ms, that is about 70.0 ms/file, 0.3004292 ms/rule, 0.3004292 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:14.360
+!MESSAGE Command ReviewCode excecuted in 75ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:15.433
+!MESSAGE 1096 markers applied on 34 files in 24ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:15.439
+!MESSAGE Review code command terminated. 233 rules were executed against 34 files. Actual PMD duration is about 1583ms, that is about 46.558823 ms/file, 6.7939916 ms/rule, 0.19982328 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:28:15.439
+!MESSAGE Command ReviewCode excecuted in 1651ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:05.275
+!MESSAGE 1055 markers applied on 33 files in 14ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:05.281
+!MESSAGE Review code command terminated. 233 rules were executed against 33 files. Actual PMD duration is about 1900ms, that is about 57.575756 ms/file, 8.154507 ms/rule, 0.24710625 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:05.282
+!MESSAGE Command ReviewCode excecuted in 1957ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:05.783
+!MESSAGE 12 markers applied on 2 files in 1ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:05.787
+!MESSAGE Review code command terminated. 233 rules were executed against 2 files. Actual PMD duration is about 97ms, that is about 48.5 ms/file, 0.416309 ms/rule, 0.2081545 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:05.788
+!MESSAGE Command ReviewCode excecuted in 109ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:37.561
+!MESSAGE 12 markers applied on 2 files in 1ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:37.565
+!MESSAGE Review code command terminated. 233 rules were executed against 2 files. Actual PMD duration is about 192ms, that is about 96.0 ms/file, 0.82403433 ms/rule, 0.41201717 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:37.566
+!MESSAGE Command ReviewCode excecuted in 203ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:39.332
+!MESSAGE 1055 markers applied on 33 files in 49ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:39.343
+!MESSAGE Review code command terminated. 233 rules were executed against 33 files. Actual PMD duration is about 2222ms, that is about 67.333336 ms/file, 9.536481 ms/rule, 0.28898427 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:39.344
+!MESSAGE Command ReviewCode excecuted in 2348ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:45.978
+!MESSAGE 11 markers applied on 1 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:45.978
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 97ms, that is about 97.0 ms/file, 0.416309 ms/rule, 0.416309 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:45.978
+!MESSAGE Command ReviewCode excecuted in 107ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:46.522
+!MESSAGE 1032 markers applied on 32 files in 15ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:46.522
+!MESSAGE Review code command terminated. 233 rules were executed against 32 files. Actual PMD duration is about 1645ms, that is about 51.40625 ms/file, 7.060086 ms/rule, 0.22062768 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:29:46.522
+!MESSAGE Command ReviewCode excecuted in 1731ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:11.318
+!MESSAGE 1055 markers applied on 33 files in 27ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:11.345
+!MESSAGE Review code command terminated. 233 rules were executed against 33 files. Actual PMD duration is about 2390ms, that is about 72.42424 ms/file, 10.257511 ms/rule, 0.31083366 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:11.346
+!MESSAGE Command ReviewCode excecuted in 2500ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:11.772
+!MESSAGE 12 markers applied on 2 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:11.775
+!MESSAGE Review code command terminated. 233 rules were executed against 2 files. Actual PMD duration is about 92ms, that is about 46.0 ms/file, 0.39484978 ms/rule, 0.19742489 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:11.775
+!MESSAGE Command ReviewCode excecuted in 102ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:59.670
+!MESSAGE 1055 markers applied on 33 files in 24ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:59.687
+!MESSAGE Review code command terminated. 233 rules were executed against 33 files. Actual PMD duration is about 2336ms, that is about 70.78788 ms/file, 10.025751 ms/rule, 0.30381063 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:32:59.687
+!MESSAGE Command ReviewCode excecuted in 2429ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:33:00.162
+!MESSAGE 12 markers applied on 2 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:33:00.166
+!MESSAGE Review code command terminated. 233 rules were executed against 2 files. Actual PMD duration is about 111ms, that is about 55.5 ms/file, 0.47639486 ms/rule, 0.23819743 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-01 10:33:00.166
+!MESSAGE Command ReviewCode excecuted in 121ms
+!SESSION 2015-08-04 19:13:42.373 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2015-08-04 19:13:52.778
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-04 19:13:52.778
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:13:57.255
+!MESSAGE 0 markers applied on 0 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:13:57.255
+!MESSAGE Review code command terminated. 233 rules were executed against 0 files. PMD was not executed.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:13:57.255
+!MESSAGE Command ReviewCode excecuted in 187ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:14:04.228
+!MESSAGE 11 markers applied on 1 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:14:04.228
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 453ms, that is about 453.0 ms/file, 1.944206 ms/rule, 1.944206 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:14:04.228
+!MESSAGE Command ReviewCode excecuted in 905ms
+!SESSION 2015-08-04 19:15:40.655 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data C:\DATA\Dropbox\androidprojects -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2015-08-04 19:15:45.896
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-04 19:15:45.896
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:15:49.812
+!MESSAGE 0 markers applied on 0 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:15:49.812
+!MESSAGE Review code command terminated. 233 rules were executed against 0 files. PMD was not executed.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:15:49.812
+!MESSAGE Command ReviewCode excecuted in 328ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:15:54.414
+!MESSAGE 11 markers applied on 1 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:15:54.414
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 343ms, that is about 343.0 ms/file, 1.472103 ms/rule, 1.472103 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-04 19:15:54.414
+!MESSAGE Command ReviewCode excecuted in 359ms
+
+!ENTRY org.eclipse.core.resources 4 4 2015-08-04 19:16:09.234
+!MESSAGE Exception occurred while saving project preferences: /RssReader/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\tmp\RssReaderLite\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:440)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2015-08-04 19:16:09.234
+!MESSAGE A resource already exists on disk 'C:\tmp\RssReaderLite\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-08-04 19:16:09.234
+!MESSAGE Exception occurred while saving project preferences: /RssReader/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\tmp\RssReaderLite\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:440)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2015-08-04 19:16:09.234
+!MESSAGE A resource already exists on disk 'C:\tmp\RssReaderLite\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2015-08-04 19:16:09.234
+!MESSAGE Exception occurred while saving project preferences: /RssReader/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\tmp\RssReaderLite\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:440)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2951)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:517)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:422)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:296)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2015-08-04 19:16:09.234
+!MESSAGE A resource already exists on disk 'C:\tmp\RssReaderLite\.settings'.
+
+!ENTRY org.eclipse.core.net 4 0 2015-08-04 19:17:07.906
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+!SESSION 2015-08-07 10:19:05.908 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-08-07 10:19:14.390
+!MESSAGE projectOpenedWithWorkspace: failed to find manifest package for project RssReader
+
+!ENTRY org.eclipse.jface 2 0 2015-08-07 10:19:14.975
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-08-07 10:19:14.975
+!MESSAGE A conflict occurred for CTRL+SHIFT+I:
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+I,
+	ParameterizedCommand(Command(org.eclipse.php.debug.ui.commands.Inspect,Inspect,
+		Inspect result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-08-07 10:19:16.808
+!MESSAGE fileChanged: failed to find manifest package for project RssReader
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-08-07 10:19:16.810
+!MESSAGE fileChanged: failed to find manifest package for project RssReader
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-08-07 10:19:16.812
+!MESSAGE fileChanged: failed to find manifest package for project RssReader
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2015-08-07 10:19:36.442
+!MESSAGE File is Out of sync
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/RssReader/AndroidManifest.xml'.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:467)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:728)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/RssReader/AndroidManifest.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 15 more
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:19:37.267
+!MESSAGE 11 markers applied on 1 files in 13ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:19:37.270
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 520ms, that is about 520.0 ms/file, 2.2317595 ms/rule, 2.2317595 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:19:37.270
+!MESSAGE Command ReviewCode excecuted in 944ms
+
+!ENTRY edu.umd.cs.findbugs.plugin.eclipse 2 2 2015-08-07 10:25:19.516
+!MESSAGE The following classes needed for FindBugs analysis on project Kungfutimer were missing:
+!SUBENTRY 1 edu.umd.cs.findbugs.plugin.eclipse 2 0 2015-08-07 10:25:19.516
+!MESSAGE java.rmi.Remote
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:25:19.721
+!MESSAGE 6 markers applied on 1 files in 1ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:25:19.728
+!MESSAGE Review code command terminated. 233 rules were executed against 1 files. Actual PMD duration is about 99ms, that is about 99.0 ms/file, 0.4248927 ms/rule, 0.4248927 ms/filerule
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:25:19.728
+!MESSAGE Command ReviewCode excecuted in 118ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:29:42.073
+!MESSAGE 0 markers applied on 0 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:29:42.074
+!MESSAGE Review code command terminated. 233 rules were executed against 0 files. PMD was not executed.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:29:42.075
+!MESSAGE Command ReviewCode excecuted in 6ms
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:30:03.865
+!MESSAGE 0 markers applied on 0 files in 0ms.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:30:03.866
+!MESSAGE Review code command terminated. 233 rules were executed against 0 files. PMD was not executed.
+
+!ENTRY net.sourceforge.pmd.eclipse.plugin 1 0 2015-08-07 10:30:03.867
+!MESSAGE Command ReviewCode excecuted in 9ms

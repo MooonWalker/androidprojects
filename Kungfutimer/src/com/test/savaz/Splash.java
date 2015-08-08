@@ -11,11 +11,7 @@ import android.view.WindowManager;
 
 public class Splash extends Activity
 {
-	public Splash()
-	{
-		super();
-	}
-
+	
 	@Override
 	protected void onCreate(Bundle Kakamatyi) 
 	{		

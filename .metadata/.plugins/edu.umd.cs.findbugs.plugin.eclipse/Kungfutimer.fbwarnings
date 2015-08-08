@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="2.0.2" sequence="8" timestamp="1437568214876" analysisTimestamp="1437568212244" release="">
+<BugCollection version="2.0.2" sequence="12" timestamp="1438935919592" analysisTimestamp="1438935917122" release="">
   <Project projectName="Kungfutimer">
-    <Jar>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Brewing.class</Jar>
+    <Jar>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Splash$1.class</Jar>
+    <Jar>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes\com\test\savaz\Splash.class</Jar>
     <AuxClasspathEntry>C:\DATA\Dropbox\androidprojects\Kungfutimer\bin\classes</AuxClasspathEntry>
     <AuxClasspathEntry>C:\DATA\Dropbox\androidprojects\Kungfutimer\libs\android-support-v4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Android\android-sdk\tools\support\annotations.jar</AuxClasspathEntry>
     <AuxClasspathEntry>C:\Android\android-sdk\platforms\android-10\android.jar</AuxClasspathEntry>
     <SrcDir>C:\DATA\Dropbox\androidprojects\Kungfutimer\src</SrcDir>
     <SrcDir>C:\DATA\Dropbox\androidprojects\Kungfutimer\gen</SrcDir>
@@ -45,6 +47,69 @@
       <SourceLine classname="com.test.savaz.AboutDialog" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
     </Field>
     <SourceLine classname="com.test.savaz.AboutDialog" start="23" end="23" startBytecode="6" endBytecode="6" sourcefile="AboutDialog.java" sourcepath="com/test/savaz/AboutDialog.java"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="9">
+    <Class classname="com.test.savaz.DatabaseHandler">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Class>
+    <Method classname="com.test.savaz.DatabaseHandler" name="copyDataBase" signature="(Landroid/content/Context;Ljava/lang/String;I)Ljava/io/File;" isStatic="false">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" start="199" end="254" startBytecode="0" endBytecode="575" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Method>
+    <Class classname="java.io.InputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.InputStream" sourcefile="InputStream.java" sourcepath="java/io/InputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="227" end="227" startBytecode="143" endBytecode="143" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="228" end="228" startBytecode="148" endBytecode="148" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="233" end="233" startBytecode="162" endBytecode="162" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="235" end="235" startBytecode="197" endBytecode="197" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="237" end="237" startBytecode="204" endBytecode="204" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{InputStream x 1,OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE" priority="2" abbrev="OBL" category="EXPERIMENTAL" first="9">
+    <Class classname="com.test.savaz.DatabaseHandler">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Class>
+    <Method classname="com.test.savaz.DatabaseHandler" name="copyDataBase" signature="(Landroid/content/Context;Ljava/lang/String;I)Ljava/io/File;" isStatic="false">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" start="199" end="254" startBytecode="0" endBytecode="575" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Method>
+    <Class classname="java.io.OutputStream" role="CLASS_REFTYPE">
+      <SourceLine classname="java.io.OutputStream" sourcefile="OutputStream.java" sourcepath="java/io/OutputStream.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="205" end="205" startBytecode="51" endBytecode="51" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="207" end="207" startBytecode="56" endBytecode="56" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="209" end="209" startBytecode="63" endBytecode="63" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{OutputStream x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="RV_RETURN_VALUE_IGNORED_BAD_PRACTICE" priority="2" abbrev="RV" category="BAD_PRACTICE" first="9">
+    <Class classname="com.test.savaz.DatabaseHandler">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Class>
+    <Method classname="com.test.savaz.DatabaseHandler" name="copyDataBase" signature="(Landroid/content/Context;Ljava/lang/String;I)Ljava/io/File;" isStatic="false">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" start="199" end="254" startBytecode="0" endBytecode="575" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Method>
+    <Method classname="java.io.File" name="mkdirs" signature="()Z" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.io.File" start="47" end="47" startBytecode="0" endBytecode="51" sourcefile="File.java" sourcepath="java/io/File.java"/>
+    </Method>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="230" end="230" startBytecode="158" endBytecode="158" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+  </BugInstance>
+  <BugInstance type="SF_SWITCH_NO_DEFAULT" priority="2" abbrev="SF" category="STYLE" first="9">
+    <Class classname="com.test.savaz.DatabaseHandler">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Class>
+    <Method classname="com.test.savaz.DatabaseHandler" name="copyDataBase" signature="(Landroid/content/Context;Ljava/lang/String;I)Ljava/io/File;" isStatic="false">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" start="199" end="254" startBytecode="0" endBytecode="575" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Method>
+    <SourceLine classname="com.test.savaz.DatabaseHandler" start="200" end="246" startBytecode="4" endBytecode="248" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+  </BugInstance>
+  <BugInstance type="UPM_UNCALLED_PRIVATE_METHOD" priority="2" abbrev="UPM" category="PERFORMANCE" first="9">
+    <Class classname="com.test.savaz.DatabaseHandler">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Class>
+    <Method classname="com.test.savaz.DatabaseHandler" name="createUUID" signature="()V" isStatic="false">
+      <SourceLine classname="com.test.savaz.DatabaseHandler" start="175" end="183" startBytecode="0" endBytecode="136" sourcefile="DatabaseHandler.java" sourcepath="com/test/savaz/DatabaseHandler.java"/>
+    </Method>
   </BugInstance>
   <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="1" abbrev="ES" category="BAD_PRACTICE" first="6">
     <Class classname="com.test.savaz.JSONParser">
@@ -145,15 +210,19 @@
     </Field>
   </BugInstance>
   <Errors errors="0" missingClasses="0"></Errors>
-  <FindBugsSummary timestamp="Wed, 22 Jul 2015 14:30:09 +0200" total_classes="1" referenced_classes="6" total_bugs="11" total_size="29" num_packages="1" vm_version="25.51-b03" cpu_seconds="5.21" clock_seconds="2.65" peak_mbytes="207.36" alloc_mbytes="494.94" gc_seconds="0.47" priority_2="6" priority_1="5">
-    <PackageStats package="com.test.savaz" total_bugs="11" total_types="4" total_size="29" priority_2="6" priority_1="5">
-      <ClassStats class="com.test.savaz.Brewing" sourceFile="Brewing.java" interface="false" size="29" bugs="0"/>
+  <FindBugsSummary timestamp="Fri, 7 Aug 2015 10:25:17 +0200" total_classes="2" referenced_classes="73" total_bugs="16" total_size="29" num_packages="1" vm_version="25.51-b03" cpu_seconds="4.09" clock_seconds="2.49" peak_mbytes="232.96" alloc_mbytes="494.94" gc_seconds="0.08" priority_2="11" priority_1="5">
+    <PackageStats package="com.test.savaz" total_bugs="16" total_types="6" total_size="29" priority_2="11" priority_1="5">
+      <ClassStats class="com.test.savaz.Splash" sourceFile="Splash.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="com.test.savaz.Splash$1" sourceFile="Splash.java" interface="false" size="14" bugs="0"/>
     </PackageStats>
     <FindBugsProfile>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="336" invocations="179" avgMicrosecondsPerInvocation="1878" maxMicrosecondsPerInvocation="149662" standardDeviationMircosecondsPerInvocation="11082"/>
-      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="323" invocations="2" avgMicrosecondsPerInvocation="161869" maxMicrosecondsPerInvocation="172992" standardDeviationMircosecondsPerInvocation="11123"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="67" invocations="176" avgMicrosecondsPerInvocation="380" maxMicrosecondsPerInvocation="18517" standardDeviationMircosecondsPerInvocation="1415"/>
-      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="43" invocations="9" avgMicrosecondsPerInvocation="4794" maxMicrosecondsPerInvocation="40139" standardDeviationMircosecondsPerInvocation="12515"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="414" invocations="2" avgMicrosecondsPerInvocation="207131" maxMicrosecondsPerInvocation="219840" standardDeviationMircosecondsPerInvocation="12716"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="251" invocations="334" avgMicrosecondsPerInvocation="754" maxMicrosecondsPerInvocation="2099" standardDeviationMircosecondsPerInvocation="395"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="116" invocations="324" avgMicrosecondsPerInvocation="360" maxMicrosecondsPerInvocation="20894" standardDeviationMircosecondsPerInvocation="1432"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="36" invocations="5" avgMicrosecondsPerInvocation="7230" maxMicrosecondsPerInvocation="34675" standardDeviationMircosecondsPerInvocation="13727"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="32" invocations="73" avgMicrosecondsPerInvocation="440" maxMicrosecondsPerInvocation="6066" standardDeviationMircosecondsPerInvocation="1045"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="30" invocations="90" avgMicrosecondsPerInvocation="339" maxMicrosecondsPerInvocation="15223" standardDeviationMircosecondsPerInvocation="1620"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="29" invocations="73" avgMicrosecondsPerInvocation="401" maxMicrosecondsPerInvocation="6139" standardDeviationMircosecondsPerInvocation="984"/>
     </FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>
@@ -166,5 +235,9 @@
     <AppVersion sequence="5" timestamp="1434903107009" release="" codeSize="40" numClasses="2"/>
     <AppVersion sequence="6" timestamp="1434960784362" release="" codeSize="48" numClasses="1"/>
     <AppVersion sequence="7" timestamp="1434960842349" release="" codeSize="96" numClasses="2"/>
+    <AppVersion sequence="8" timestamp="1437568214876" release="" codeSize="58" numClasses="2"/>
+    <AppVersion sequence="9" timestamp="1438153508609" release="" codeSize="381" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1438153754113" release="" codeSize="762" numClasses="2"/>
+    <AppVersion sequence="11" timestamp="1438166539842" release="" codeSize="762" numClasses="2"/>
   </History>
 </BugCollection>
